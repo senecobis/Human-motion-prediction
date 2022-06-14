@@ -1,0 +1,175 @@
+Sender: LSF System <lsfadmin@eu-g3-019>
+Subject: Job 221585033: <python train.py> in cluster <euler> Done
+
+Job <python train.py> was submitted from host <eu-login-15> by user <rpellerito> in cluster <euler> at Tue Jun 14 13:47:15 2022
+Job was executed on host(s) <6*eu-g3-019>, in queue <gpu.4h>, as user <rpellerito> in cluster <euler> at Tue Jun 14 13:47:44 2022
+</cluster/home/rpellerito> was used as the home directory.
+</cluster/home/rpellerito/Moir4e-master> was used as the working directory.
+Started at Tue Jun 14 13:47:44 2022
+Terminated at Tue Jun 14 14:02:58 2022
+Results reported at Tue Jun 14 14:02:58 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python train.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1399.09 sec.
+    Max Memory :                                 6144 MB
+    Average Memory :                             5857.12 MB
+    Total Requested Memory :                     6144.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              11
+    Max Threads :                                354
+    Run time :                                   914 sec.
+    Turnaround time :                            943 sec.
+
+The output (if any) follows:
+
+using device:  cuda:0
+Model created with 7920250 trainable parameters
+
+ model dir /cluster/scratch/rpellerito/experiments/1655207297-DCT_ATT_GCN-lr0.0003
+Saving checkpoints to /cluster/scratch/rpellerito/experiments/1655207297-DCT_ATT_GCN-lr0.0003/model.pth
+[TRAIN 00001 | 001] total_loss: 141.470337 elapsed: 1.495 secs
+[VALID 00001 | 001] total_loss: 12.224677 elapsed: 11.633 secs
+[VALID 00001 | 001] metrics until 24:   joint_angle: 6.061
+[TRAIN 00200 | 001] total_loss: 91.200264 elapsed: 0.026 secs
+[TRAIN 00138 | 002] total_loss: 61.931999 elapsed: 0.023 secs
+[VALID 00139 | 002] total_loss: 31.791783 elapsed: 5.988 secs
+[VALID 00139 | 002] metrics until 24:   joint_angle: 14.856
+[TRAIN 00076 | 003] total_loss: 43.769405 elapsed: 0.028 secs
+[TRAIN 00014 | 004] total_loss: 31.524536 elapsed: 0.031 secs
+[VALID 00016 | 004] total_loss: 16.334341 elapsed: 5.714 secs
+[VALID 00016 | 004] metrics until 24:   joint_angle: 8.077
+[TRAIN 00213 | 004] total_loss: 22.876707 elapsed: 0.032 secs
+[TRAIN 00151 | 005] total_loss: 16.557510 elapsed: 0.027 secs
+[VALID 00154 | 005] total_loss: 10.328580 elapsed: 5.936 secs
+[VALID 00154 | 005] metrics until 24:   joint_angle: 5.677
+[TRAIN 00089 | 006] total_loss: 12.541982 elapsed: 0.032 secs
+[TRAIN 00027 | 007] total_loss: 9.613181 elapsed: 0.033 secs
+[VALID 00031 | 007] total_loss: 7.693060 elapsed: 5.707 secs
+[VALID 00031 | 007] metrics until 24:   joint_angle: 4.759
+[TRAIN 00226 | 007] total_loss: 7.373802 elapsed: 0.032 secs
+[TRAIN 00164 | 008] total_loss: 6.920688 elapsed: 0.029 secs
+[VALID 00169 | 008] total_loss: 6.719488 elapsed: 5.941 secs
+[VALID 00169 | 008] metrics until 24:   joint_angle: 4.398
+[TRAIN 00102 | 009] total_loss: 3.995798 elapsed: 0.029 secs
+[TRAIN 00040 | 010] total_loss: 4.442633 elapsed: 0.035 secs
+[VALID 00046 | 010] total_loss: 6.247253 elapsed: 5.847 secs
+[VALID 00046 | 010] metrics until 24:   joint_angle: 4.253
+[TRAIN 00239 | 010] total_loss: 2.237672 elapsed: 0.030 secs
+[TRAIN 00177 | 011] total_loss: 2.834912 elapsed: 0.025 secs
+[VALID 00184 | 011] total_loss: 6.028898 elapsed: 5.984 secs
+[VALID 00184 | 011] metrics until 24:   joint_angle: 4.196
+[TRAIN 00115 | 012] total_loss: 2.334494 elapsed: 0.023 secs
+[TRAIN 00053 | 013] total_loss: 2.432433 elapsed: 0.030 secs
+[VALID 00061 | 013] total_loss: 5.952330 elapsed: 5.838 secs
+[VALID 00061 | 013] metrics until 24:   joint_angle: 4.180
+[TRAIN 00252 | 013] total_loss: 2.327631 elapsed: 0.025 secs
+[TRAIN 00190 | 014] total_loss: 2.123553 elapsed: 0.027 secs
+[VALID 00199 | 014] total_loss: 5.931767 elapsed: 5.678 secs
+[VALID 00199 | 014] metrics until 24:   joint_angle: 4.175
+[TRAIN 00128 | 015] total_loss: 3.420307 elapsed: 0.032 secs
+[TRAIN 00066 | 016] total_loss: 1.686724 elapsed: 0.029 secs
+[VALID 00076 | 016] total_loss: 5.928704 elapsed: 5.713 secs
+[VALID 00076 | 016] metrics until 24:   joint_angle: 4.175
+[TRAIN 00004 | 017] total_loss: 2.257147 elapsed: 0.031 secs
+[TRAIN 00203 | 017] total_loss: 2.425100 elapsed: 0.033 secs
+[VALID 00214 | 017] total_loss: 5.928408 elapsed: 5.680 secs
+[VALID 00214 | 017] metrics until 24:   joint_angle: 4.175
+[TRAIN 00141 | 018] total_loss: 2.430180 elapsed: 0.031 secs
+[TRAIN 00079 | 019] total_loss: 1.663194 elapsed: 0.030 secs
+[VALID 00091 | 019] total_loss: 5.928352 elapsed: 5.767 secs
+[VALID 00091 | 019] metrics until 24:   joint_angle: 4.175
+[TRAIN 00017 | 020] total_loss: 1.920675 elapsed: 0.027 secs
+[TRAIN 00216 | 020] total_loss: 1.766501 elapsed: 0.027 secs
+[VALID 00229 | 020] total_loss: 5.928376 elapsed: 5.769 secs
+[VALID 00229 | 020] metrics until 24:   joint_angle: 4.175
+[TRAIN 00154 | 021] total_loss: 3.617970 elapsed: 0.030 secs
+[TRAIN 00092 | 022] total_loss: 1.816562 elapsed: 0.031 secs
+[VALID 00106 | 022] total_loss: 5.928440 elapsed: 5.842 secs
+[VALID 00106 | 022] metrics until 24:   joint_angle: 4.175
+[TRAIN 00030 | 023] total_loss: 3.279617 elapsed: 0.029 secs
+[TRAIN 00229 | 023] total_loss: 2.428413 elapsed: 0.029 secs
+[VALID 00244 | 023] total_loss: 5.928465 elapsed: 5.963 secs
+[VALID 00244 | 023] metrics until 24:   joint_angle: 4.175
+[TRAIN 00167 | 024] total_loss: 2.423631 elapsed: 0.024 secs
+[TRAIN 00105 | 025] total_loss: 2.171897 elapsed: 0.033 secs
+[VALID 00121 | 025] total_loss: 5.928565 elapsed: 5.658 secs
+[VALID 00121 | 025] metrics until 24:   joint_angle: 4.175
+[TRAIN 00043 | 026] total_loss: 2.471451 elapsed: 0.026 secs
+[TRAIN 00242 | 026] total_loss: 2.258796 elapsed: 0.026 secs
+[VALID 00259 | 026] total_loss: 5.928394 elapsed: 5.789 secs
+[VALID 00259 | 026] metrics until 24:   joint_angle: 4.175
+[TRAIN 00180 | 027] total_loss: 2.114464 elapsed: 0.027 secs
+[TRAIN 00118 | 028] total_loss: 2.623103 elapsed: 0.031 secs
+[VALID 00136 | 028] total_loss: 5.928533 elapsed: 5.754 secs
+[VALID 00136 | 028] metrics until 24:   joint_angle: 4.175
+[TRAIN 00056 | 029] total_loss: 2.927223 elapsed: 0.023 secs
+[TRAIN 00255 | 029] total_loss: 1.701250 elapsed: 0.029 secs
+[VALID 00013 | 030] total_loss: 5.928349 elapsed: 5.930 secs
+[VALID 00013 | 030] metrics until 24:   joint_angle: 4.175
+[TRAIN 00193 | 030] total_loss: 2.621324 elapsed: 0.033 secs
+[TRAIN 00131 | 031] total_loss: 3.105604 elapsed: 0.028 secs
+[VALID 00151 | 031] total_loss: 5.928390 elapsed: 5.762 secs
+[VALID 00151 | 031] metrics until 24:   joint_angle: 4.175
+[TRAIN 00069 | 032] total_loss: 2.622525 elapsed: 0.027 secs
+[TRAIN 00007 | 033] total_loss: 2.673306 elapsed: 0.030 secs
+[VALID 00028 | 033] total_loss: 5.928768 elapsed: 5.886 secs
+[VALID 00028 | 033] metrics until 24:   joint_angle: 4.175
+[TRAIN 00206 | 033] total_loss: 2.202896 elapsed: 0.026 secs
+[TRAIN 00144 | 034] total_loss: 2.064179 elapsed: 0.023 secs
+[VALID 00166 | 034] total_loss: 5.928496 elapsed: 5.778 secs
+[VALID 00166 | 034] metrics until 24:   joint_angle: 4.175
+[TRAIN 00082 | 035] total_loss: 1.996385 elapsed: 0.031 secs
+[TRAIN 00020 | 036] total_loss: 2.436370 elapsed: 0.028 secs
+[VALID 00043 | 036] total_loss: 5.928426 elapsed: 5.798 secs
+[VALID 00043 | 036] metrics until 24:   joint_angle: 4.175
+[TRAIN 00219 | 036] total_loss: 2.794034 elapsed: 0.026 secs
+[TRAIN 00157 | 037] total_loss: 2.944568 elapsed: 0.032 secs
+[VALID 00181 | 037] total_loss: 5.928300 elapsed: 5.670 secs
+[VALID 00181 | 037] metrics until 24:   joint_angle: 4.175
+[TRAIN 00095 | 038] total_loss: 2.383299 elapsed: 0.029 secs
+[TRAIN 00033 | 039] total_loss: 2.574363 elapsed: 0.029 secs
+[VALID 00058 | 039] total_loss: 5.928327 elapsed: 5.756 secs
+[VALID 00058 | 039] metrics until 24:   joint_angle: 4.175
+[TRAIN 00232 | 039] total_loss: 3.068429 elapsed: 0.033 secs
+[TRAIN 00170 | 040] total_loss: 2.409657 elapsed: 0.027 secs
+[VALID 00196 | 040] total_loss: 5.928280 elapsed: 5.614 secs
+[VALID 00196 | 040] metrics until 24:   joint_angle: 4.175
+[TRAIN 00108 | 041] total_loss: 2.439196 elapsed: 0.028 secs
+[TRAIN 00046 | 042] total_loss: 2.350064 elapsed: 0.031 secs
+[VALID 00073 | 042] total_loss: 5.928344 elapsed: 5.842 secs
+[VALID 00073 | 042] metrics until 24:   joint_angle: 4.175
+[TRAIN 00245 | 042] total_loss: 1.723566 elapsed: 0.028 secs
+[TRAIN 00183 | 043] total_loss: 2.494728 elapsed: 0.028 secs
+[VALID 00211 | 043] total_loss: 5.928266 elapsed: 5.868 secs
+[VALID 00211 | 043] metrics until 24:   joint_angle: 4.175
+[TRAIN 00121 | 044] total_loss: 2.305683 elapsed: 0.032 secs
+[TRAIN 00059 | 045] total_loss: 1.938750 elapsed: 0.026 secs
+[VALID 00088 | 045] total_loss: 5.928358 elapsed: 5.620 secs
+[VALID 00088 | 045] metrics until 24:   joint_angle: 4.175
+[TRAIN 00258 | 045] total_loss: 1.543790 elapsed: 0.026 secs
+[TRAIN 00196 | 046] total_loss: 2.263816 elapsed: 0.031 secs
+[VALID 00226 | 046] total_loss: 5.928335 elapsed: 5.769 secs
+[VALID 00226 | 046] metrics until 24:   joint_angle: 4.175
+[TRAIN 00134 | 047] total_loss: 2.181017 elapsed: 0.031 secs
+[TRAIN 00072 | 048] total_loss: 1.978379 elapsed: 0.028 secs
+[VALID 00103 | 048] total_loss: 5.928280 elapsed: 5.959 secs
+[VALID 00103 | 048] metrics until 24:   joint_angle: 4.175
+[TRAIN 00010 | 049] total_loss: 2.331678 elapsed: 0.023 secs
+[TRAIN 00209 | 049] total_loss: 1.990982 elapsed: 0.033 secs
+[VALID 00241 | 049] total_loss: 5.928380 elapsed: 5.582 secs
+[VALID 00241 | 049] metrics until 24:   joint_angle: 4.175
+[TRAIN 00147 | 050] total_loss: 2.213467 elapsed: 0.028 secs
+using device:  cuda:0
+Model created with 7920250 trainable parameters
+Loaded weights from /cluster/scratch/rpellerito/experiments/1655207297-DCT_ATT_GCN-lr0.0003/model.pth
